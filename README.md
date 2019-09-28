@@ -64,9 +64,8 @@ super(scene, x, y, _colors.find(s=>s.color === color).key);
 ### Resized sprites with the real ratios in dynamic Canvas sizes:
 
 in index.html:
-`
-<script type="text/javascript" src="canvas_scale.js"></script>
-`
+
+`<script type="text/javascript" src="canvas_scale.js"></script>`
 
 usage of it is that:
 ```
