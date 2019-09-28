@@ -55,8 +55,8 @@ let x = beam.x;
 let y = beam.y;
 
 super(scene, x, y, _colors.find(s=>s.color === color).key);
-    ``
-    
+```
+
 
 
 
@@ -104,7 +104,7 @@ this is how many items that have the same width fits in the canvas width:
 this.__gap = this._width/(this.__next_by_nextPcs + 1); 
 `
 
-this.__next_by_nextPcs is 3
+`this.__next_by_nextPcs` is 3
 
 
 
@@ -114,12 +114,12 @@ this.__next_by_nextPcs is 3
   ## Some notes
   
   There was a problem with bale location. That is created with that:
-  ```
+```
   this._bale = this.physics.add.image(Phaser.Math.Between(1100,1400), this.tile_base_h, "bale");
-  ```
+```
   
   and stones with that:
-  ```
+```
     this.stoneSprites[this._stone_say] = this.add.sprite(Phaser.Math.Between(900,1000), this.tile_base_h, "stone")
 ```
   
