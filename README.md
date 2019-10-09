@@ -126,6 +126,6 @@ this.__gap = this._width/(this.__next_by_nextPcs + 1);
   
 
 
-
+## [Facebook instant games](https://www.facebook.com/instantgames/2385949281669664/ "Facebook instant games")
 
 ## [Demo](https://html5.ozguruygulama.com/tractor_with_machine_gun/index.html "Demo")
